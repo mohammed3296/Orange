@@ -1,0 +1,101 @@
+/*Start Goloal rules */
+*{
+    padding:0;
+    margin:0;
+}
+/*"Trebuchet MS"*/
+body{
+    /*line-height: 1.25;
+    font-family: wf_segoe-ui_semilight,wf_segoe-ui_light,wf_segoe-ui_normal,'Segoe UI Semilight','Segoe UI Light','Segoe UI',Arial,sans-serif !important;
+    color:#2f2f2f;
+    font-size: calc(15px + 0.3vw);
+    letter-spacing: 1px;*/
+    font-family: "Trebuchet MS";
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    background: url("images/bg1.jpg");
+   /* -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;*/
+			
+			font-family: "Trebuchet MS";
+    font-size: 14px;
+    color: #ffed71;
+}
+.container {
+    width:70%;
+    margin:50px auto;
+}
+/*div for clear float for better design*/
+.clear-fix{
+    clear:both;
+}
+/*End Goloal rules */
+
+/*Start header*/
+header{
+    background:url("images/bg2.jpg");
+    height:150px;
+    text-align: center;
+    color:#fff;
+    margin-bottom: -30px;
+}
+header h1{
+    padding-top: 64px;
+    text-transform: capitalize;
+    font-size: 46px;
+    margin: auto;
+    width: 50%;
+}
+/*End header*/
+/*start navigation*/
+nav{
+    padding-bottom: 15px;
+    margin-top: -27px;
+}
+nav .container .ul1 {
+    float:left;
+    margin-left: -8px;
+}
+nav .container .ul2 {
+    float:right;
+}
+nav .container ul{
+    list-style: none;
+    overflow:hidden;
+}
+nav .container ul li{
+    padding:10px;
+    float:left;
+}
+nav .container ul li a{
+    color:#ffed71;
+    text-decoration:none;
+    text-transform: uppercase;
+}
+nav .container .ul1 li a {
+    display: inline-block;
+    width: 88px;
+    height: 40px;
+    text-align:center;
+    padding-top: 10px;
+}
+nav .container  .ul1 li a.active,
+nav .container   .ul1 li a:hover{
+
+    color:#fff;
+    background:url("images/menu-btn.png") no-repeat;
+
+
+
+}
+/*End navigation*/
+/*Start main image of the site*/
+.mainImage .container .image-of-women
+{
+	width: 459px;
+    margin-top: -380px;
+    margin-left: 284px;
+}
